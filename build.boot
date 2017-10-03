@@ -1,11 +1,12 @@
 (set-env! :resource-paths #{"src"}
           :dependencies `[[org.clojure/clojure ~(clojure-version)]
                           [ags799/bootlaces "dfb3d20"]
-                          [ags799/boot-docker "a84003a"]])
+                          [ags799/boot-docker "282493a"]])
 
 (require '[ags799.bootlaces :refer :all]
          '[ags799.boot-docker :refer :all])
 
 (bootlaces! 'ags799/example)
+(boot-docker! "ags799/example" "0.0.0")
 
 (task-options! jar {:main 'ags799.example})
