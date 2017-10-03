@@ -7,6 +7,6 @@
          '[ags799.boot-docker :refer :all])
 
 (bootlaces! 'ags799/example)
-(boot-docker! "ags799/example" "0.0.0")
+(boot-docker! "ags799" "example" "0.0.0")
 
 (task-options! jar {:main 'ags799.example})
