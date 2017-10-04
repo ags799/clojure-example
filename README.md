@@ -3,6 +3,10 @@
 
 An example Clojure project.
 
+## Usage
+View usage instructions at our
+[Docker Hub page](https://hub.docker.com/r/ags799/clojure-example/).
+
 ## Development
 Prepare your environment by installing [boot](boot-clj.com) and
 [Docker](docker.com).
