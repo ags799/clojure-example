@@ -1,6 +1,6 @@
 (set-env! :resource-paths #{"src"}
           :dependencies `[[org.clojure/clojure ~(clojure-version)]
-                          [ags799/bootlaces "8c5bc4a"]])
+                          [ags799/bootlaces "7baea80"]])
 
 (require '[ags799.bootlaces :refer :all])
 
